@@ -1,0 +1,53 @@
+{% extends "page.njk" %}
+
+{% block layout %}
+<header>
+    <div id="title">
+        <h1>{{ course_title }}</h1>
+        <a href="#">Back to canvas</a>
+    </div>
+</header>
+<main>
+    <section id="main-content">
+        <aside id="left">
+            <h1>{{ course_title }}</h1>
+            {{ content | safe}}
+        </aside>
+        <aside id="right">
+            <img src="/_assets/walvis_container.png" alt="walvis container" eleventy:widths="400">
+        </aside> 
+    </section>
+    <section id="buttons">
+        <a href="https://www.apple.com" class="button-container">
+            <div>Buttyboy</div>
+        </a>
+        <a href="/index.html" class="button-container">
+            <div>Buttyboy</div>
+        </a>
+        <a href="#" class="button-container">
+            <div>Buttyboy</div>
+        </a>
+        <a href="#" class="button-container">
+            <div>Buttyboy</div>
+        </a>
+        <a href="#" class="button-container">
+            <div>Buttyboy</div>
+        </a>
+        <a href="#" class="button-container">
+            <div>Buttyboy</div>
+        </a>
+        <a href="#" class="button-container">
+            <div>Buttyboy</div>
+        </a>
+        <a href="#" class="button-container">
+            <div>Buttyboy</div>
+        </a>
+        <a class="button-container">
+            <div>Buttyboy</div>
+        </a>
+    </section>
+</main>
+    <footer>
+
+    </footer>
+{% endblock %}

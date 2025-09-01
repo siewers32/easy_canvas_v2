@@ -1,0 +1,140 @@
+:root {
+    font-family: 'BuenosAires', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6rem ;
+    color: var(--blue);
+
+    scroll-behavior: smooth;
+
+    --orange: #f58220;
+    --blue: #343368;
+    --light-grey: #f5f4f7;
+    --dark-grey: #17171a;
+}
+
+body {
+    margin:0;
+    padding:0;
+}
+
+#page-wrapper {
+    max-width:1200px;
+    margin:auto;
+}
+
+header {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--blue);
+}
+
+header div#title h1{
+    font-weight: 700;
+    font-size:1.5rem;
+}
+
+nav {
+    width:100%;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    align-self: center;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0 1rem;
+    min-width:100px;
+    text-wrap: nowrap;
+    margin-top: 0.5rem;
+}
+
+nav a:hover, nav a.active {
+    color: var(--orange);
+}
+
+main {
+    background-color: white;
+    min-height: 100vh;
+}
+
+header #title {
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+header #title h1 {
+    color: white;
+}
+
+header #title a {
+    background-color: var(--orange);
+    padding: 0.8rem;
+    border-radius: 1.6rem;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    align-self: center;
+}
+
+#inhoudsopgave {
+    background-color: var(--light-grey);
+    padding: 1rem;
+}
+
+@media print {
+    #page-wrapper {
+        max-width:100%;
+        margin:auto;
+    }
+
+    header {
+        display: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:visited {
+        color: black;
+    }
+
+    #inhoudsopgave a {
+        text-decoration: none;
+        color: black;
+        padding: 0;
+    }
+
+    body {
+        font-size: 10pt;
+        line-height: 1.4;
+        color: black
+    }
+}
+
+/* @media (max-width:767px) {
+    .item-group-condensed .ig-header {
+        height: 35px
+    }
+}
+
+@media (max-width:1449px) {
+    .deltionv2-template-container .deltionv2-buttoncollection {
+        grid-template-columns: repeat(3, 1fr)
+    }
+}
+
+@media (max-width:1199px) {
+    .deltionv2-template-container .deltionv2-buttoncollection {
+        grid-template-columns: repeat(2, 1fr)
+    }
+} */

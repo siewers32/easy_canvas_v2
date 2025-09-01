@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% set css %}
+      {% include "css/fonts.css" %}
+      {% include "css/text.css" %}
+      {% include "css/style.css" %}
+      {% include "css/leerdoelen.css" %}
+      {% if title == "Introductie" %}
+        {% include "css/introductie.css" %}
+      {% elif title == "Leerdoelen" %}
+        {% include "css/leerdoelen.css" %}
+        {% include "css/regular_text.css" %}
+      {% else  %}
+        {% include "css/regular_text.css" %}
+      {% endif %}
+      {% include "css/prism.css" %}
+    {% endset %}
+    <style>
+      {{ css | cssmin |safe }}
+    </style>
+    <title>{{ course_title }}</title>
+</head>
+<body>
+  <div id="page-wrapper">
+
+  {% block layout %}{% endblock %}  
+
+    <footer>
+
+    </footer>
+  </div>
+</body> 
+</html>

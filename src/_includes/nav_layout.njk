@@ -1,0 +1,25 @@
+{% extends "page.njk" %}
+
+{% block layout %}
+    <header>
+        <div id="title">
+            <h1>{{ course_title }}</h1>
+        </div>
+        <nav>
+        {% for p in collections[tags] | postsAscending %}
+            <a href="{{ p.url }}" {% if p.url==page.url %}aria-current="page" data-state="active" {% endif %}>{{ p.data.title }}</a>
+        {% endfor %}
+        </nav>
+    </header>
+    <main>    
+        <section id="main-content">
+            <h1 id="top">{{ course_title }}</h1>
+            <h3>{{ title }}</h3>
+            <div id="inhoudsopgave">
+            <b>Inhoudsopgave</b>
+            {{ content | toc | safe }}
+            </div>
+            {{ content | safe }}
+        </section>
+    </main>
+{% endblock %}

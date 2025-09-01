@@ -1,0 +1,28 @@
+main {
+    background: var(--light-grey);
+}
+
+section#main-content {
+    background-color: #ffffff;
+    width:65%;
+    margin:auto; 
+    padding:2rem; 
+}
+
+header #title {
+    justify-content: space-around;
+}
+
+@media print {
+section#main-content {
+    margin: 0px;
+    background-color: #ffffff;
+    width: 90%;
+}
+}
+
+@media (max-width:767px) {
+    section#main-content {
+        width:100%;
+    }
+}
