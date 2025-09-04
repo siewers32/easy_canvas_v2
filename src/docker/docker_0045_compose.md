@@ -104,3 +104,15 @@ Gebruik `docker compose up`
     * De eerste microservice is een website waar je csv-bestanden kunt uploaden
     * De tweede microservice is een proces dat de bestanden converteer naar excel.
 
+  Bij dit keuzedeel formuleren de studenten zelf hun leerdoelen. Deze leerdoelen zijn een resultaat van hun eigen oriëntatie en zelfreflectie, en zijn gericht op het eigen maken van specifieke software.
+
+Hier is een opsomming van hoe de leerdoelen tot stand komen en wat de studenten hiermee moeten aantonen:
+
+*   **Zelfreflectie en formuleren van leerdoelen**: Studenten oriënteren zich op en verdiepen zich in arbeidsmarktrelevante software. Na onderzoek naar relevante software voor hun toekomstige werkveld, analyse van technologische veranderingen en toepassingen, en een keuze voor een specifiek softwarepakket, reflecteren zij op hun eigen kennis en vaardigheden. Op basis van deze zelfreflectie formuleren zij hun **eigen leerdoelen**.
+*   **Doel van de leerdoelen**: De geformuleerde leerdoelen zijn erop gericht om aan te tonen dat de student de gekozen software beheerst.
+*   **Planning en uitvoering**: Studenten formuleren stappen om hun leerdoelen te behalen, selecteren instructiematerialen (zoals boeken, online cursussen en videolessen) en maken een tijdsplanning. Vervolgens volgen ze de instructies, maken bijbehorende opdrachten en bewaken hun voortgang.
+*   **Verantwoording in het examengesprek**: Tijdens het examengesprek moeten studenten verantwoorden hoe zij hun leertraject hebben aangepakt. Dit houdt onder andere in dat zij duidelijk uitleggen **welke leerdoelen voor hen haalbaar waren en waarom**.
+*   **Resultaat**: Uiteindelijk moet de student aantonen dat hij zich de software heeft eigengemaakt. De geformuleerde leerdoelen dragen bij aan het bereiken van dit overkoepelende doel en aan de realisatie van een eindopdracht die gekoppeld is aan het leertraject.
+
+Samengevat, er is geen vooraf vastgestelde lijst met leerdoelen voor alle studenten. In plaats daarvan is het een leerdoel voor de student om, op basis van zelfreflectie en marktonderzoek, **passende individuele leerdoelen te formuleren en deze succesvol te behalen** om de gekozen arbeidsmarktrelevante software te beheersen.
+

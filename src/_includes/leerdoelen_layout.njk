@@ -7,7 +7,7 @@
         </div>
         <nav>
         {% for p in collections[tags] | postsAscending %}
-            <a href="{{ p.url }}" {% if p.url==page.url %} {% set mypage = p %}aria-current="page" data-state="active" {% endif %}>{{ p.data.title }}</a>
+            <a href="{{ p.url }}" {% if p.url==page.url %}aria-current="page" data-state="active" {% endif %}>{{ p.data.title }}</a>
         {% endfor %}
         </nav>
     </header>
@@ -21,19 +21,8 @@
             </div>
             {{ content | safe }}
         </section>
+        <section id="leerdoelen">
         <h3 id="leerdoelen">Leerdoelen</h3>
-        {% if mypage %}
-            {% for l in mypage.data.leerdoelen %}
-                <details>
-                    <summary><a>{{ l.titel }}</a></summary>
-                    <ul>
-                    {% for i in l.items %}
-                        <li>{{ i }}</li>
-                    {% endfor %}
-                    </ul>
-                </details>
-            {% endfor %}
-        {% endif %}
         {% for p in collections[tags] | postsAscending %}
             {% if p.url==page.url %}
                 {% for l in p.data.leerdoelen %}
@@ -48,5 +37,6 @@
                     {% endfor %}
             {% endif %}
         {% endfor %}
+        </section>
     </main>
 {% endblock %}

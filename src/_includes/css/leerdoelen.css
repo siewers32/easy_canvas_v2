@@ -79,6 +79,11 @@ h3#leerdoelen {
     text-align:center
 }
 
+section#leerdoelen {
+    padding: 0rem 0rem 2rem 0rem;
+    background-color: var(--light-grey);
+}
+
 @media (max-width:767px) {
     details {
         width:100%;
